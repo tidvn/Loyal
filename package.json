@@ -1,0 +1,31 @@
+{
+  "name": "Loyal",
+  "description": "Loyalty rewards on cardano",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Tidvn",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@blockfrost/blockfrost-js": "latest",
+    "@meshsdk/core": "latest",
+    "@meshsdk/react": "latest",
+    "daisyui": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swr": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
